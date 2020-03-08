@@ -1,6 +1,8 @@
 body {
+    margin: 0;
+    padding: 0;
     /* background: url("../images/macaw-poly.jpg"); */
-    background-color: #474747;
+    /* background-color: #474747; */
 }
 
 .m-padded-mini {
