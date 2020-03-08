@@ -13,6 +13,10 @@ body {
     padding: 0.3em !important;
 }
 
+.m-padded {
+    padding: 1em !important;
+}
+
 .m-padded-tb-mini {
     padding-top: 0.2em !important;
     padding-bottom: 0.2em !important;
@@ -133,6 +137,17 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
 }
 
+/* positon */
+.m-fixed {
+    position: fixed !important;
+    z-index: 1 !important;
+}
+
+.m-right-bottom {
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
 /* color */
 .m-black {
     color: #333 !important;
@@ -140,6 +155,31 @@ body {
 
 .m-mobile-show {
     display: none !important;
+}
+
+
+/* tocbot */
+.toc-list {
+    list-style-type: none;
+}
+
+.toc-list li a {
+    display: block;
+    padding: 4px 0;
+    font-weight: 300;
+}
+
+.toc-list li a:hover {
+    color: teal;
+}
+
+.is-active-link {
+    color: teal !important;
+}
+
+.toc-link::before {
+    content: '';
+    height: 20px;
 }
 
 @media screen and (max-width: 768px) {
